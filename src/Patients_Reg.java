@@ -312,3 +312,10 @@ public class Patients_Reg extends javax.swing.JFrame {
     private javax.swing.JTextField address_textfield;
     private javax.swing.JButton back_button;
     private javax.swing.JLabel confirmpassword_label;
+    private javax.swing.JTextField confirmpassword_textfield;
+    private javax.swing.JLabel fname_label;
+    private javax.swing.JTextField fname_textfield;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel3;
