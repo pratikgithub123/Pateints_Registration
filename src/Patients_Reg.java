@@ -319,3 +319,14 @@ public class Patients_Reg extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JLabel lname_label;
+    private javax.swing.JTextField lname_textfield;
+    private javax.swing.JLabel password_label;
+    private javax.swing.JTextField password_textfield;
+    private javax.swing.JLabel phone_label;
+    private javax.swing.JTextField phone_textfield;
+    private javax.swing.JButton register_button;
+    private javax.swing.JLabel username_label;
+    private javax.swing.JTextField username_textfield;
+    // End of variables declaration
+}
