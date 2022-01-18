@@ -306,3 +306,9 @@ public class Patients_Reg extends javax.swing.JFrame {
             }
         });
     }
+
+    // Variables declaration - do not modify
+    private javax.swing.JLabel address_label;
+    private javax.swing.JTextField address_textfield;
+    private javax.swing.JButton back_button;
+    private javax.swing.JLabel confirmpassword_label;
