@@ -4,6 +4,8 @@
  */
 package patient_registration_form;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author hp
@@ -250,6 +252,34 @@ public class Patients_Reg extends javax.swing.JFrame {
 
     private void register_buttonActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+        String fname=fname_textfield.getText().toString();
+        String lname=lname_textfield.getText().toString();
+        String address=address_textfield.getText().toString();
+        String phone=phone_textfield.getText().toString();
+        String username=username_textfield.getText().toString();
+        String password=password_textfield.getText().toString();
+        String confirmpassword=confirmpassword_textfield.getText().toString();
+        if(fname.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your first name");
+        }
+        if(lname.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your last name");
+        }
+        if(address.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your address");
+        }
+        if(phone.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your phone number");
+        }
+        if(username.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your username");
+        }
+        if(password.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your password");
+        }
+        if(confirmpassword.equals("")){
+            JOptionPane.showMessageDialog(null,"Please fill your confirm password");
+        }
     }
 
     private void lname_textfieldActionPerformed(java.awt.event.ActionEvent evt) {
